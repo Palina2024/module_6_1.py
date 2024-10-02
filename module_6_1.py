@@ -9,7 +9,7 @@ class Animal:
         if food.edible == True:
             Animal.fed = True
             print(f'{self.name} съел {food.name}')
-        elif food.edible == False:
+        else:
             Animal.alive = False
             print(f'{self.name} не стал есть {food.name}')
 
